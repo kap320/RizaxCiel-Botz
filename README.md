@@ -68,7 +68,7 @@ pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
 pkg install libwebp
-git clone https://github.com/Kannachann/kanna-wabot/
+git clone https://github.com/Kap320/RizaxCiel-Botz/
 npm install -g npm@6.14.14 atau bisa juga npm i -g npm@8.5.1
 npm start
 ```
