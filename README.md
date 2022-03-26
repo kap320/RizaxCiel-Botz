@@ -51,8 +51,8 @@ Click Run
 * Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Kannachann/kanna-wabot/
-cd kanna-wabot
+git clone https://github.com/Kap320/RizaxCiel-Botz/
+cd RizaxCiel-Botz
 npm i
 npm update
 node .
