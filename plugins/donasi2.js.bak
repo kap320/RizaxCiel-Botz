@@ -1,0 +1,22 @@
+let handler  = async (m, { conn, usedPrefix: _p }) => {
+let fs = require('fs')
+let str = `
+╭╡
+│┝‷✧ *Pulsa:* 6281391883354
+│┝‷✧ *Dana:* 62895360689268
+│┝‷✧ *Linkaja:* 62895360689268
+│┝‷✧ *Gopay:* 62895360689268
+│┝‷✧ *Ovo:* 62895360689268
+│╰───···─────
+│⁺◛˖ Ingin Donasi? Chat
+│wa.me/6281391883354?text=kak+mau+donasi
+╰──────────···───╮
+▌│█║▌║▌║║▌║▌║█│▌
+`.trim()
+
+conn.send2Button(m.chat, str, watermark, 'Owner', '.owner', 'Menu', '.menu', { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `Riza「XYZ」`, itemCount: 999, thumbnail: fs.readFileSync('./src/logo3.jpg')}}})
+}
+handler.command = /^dona(si|te)$/
+
+module.exports = handler
+let wm = global.botwm
